@@ -13,6 +13,9 @@ export default class OrdinaryDrinkList extends Component {
     return (
       <div className="ordinaryDrinks-list">
         <h1>Ordinary Drinks List</h1>
+        <div>
+        <Link to="/">Go back to the Categories List</Link>
+        </div>
         { !details && "Loading..." }
         {
           details &&
